@@ -3,6 +3,7 @@ import CardList from "./components/CardList";
 import ListBar from "./components/ListBar";
 import ListTitle from "./components/ListTitle";
 import NavBar from "./components/NavBar";
+import ListCard2 from "./components/ListCard2";
 
 function App() {
 	return (
@@ -12,7 +13,7 @@ function App() {
 			<ListTitle title="Popular Foods" />
 			<CardList />
 			<ListTitle title="Special Offers" />
-			<CardList />
+			<ListCard2 />
 		</div>
 	);
 }
